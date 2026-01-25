@@ -11,7 +11,7 @@ go_test(
     ],
     data = glob(["testdata/**"]),
     flaky = True,
-    shard_count = 24,
+    shard_count = 19,
     deps = [
         "//pkg/config",
         "//pkg/config/kerneltype",
